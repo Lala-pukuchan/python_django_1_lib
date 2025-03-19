@@ -14,7 +14,7 @@ def main():
     query = sys.argv[1]
     filename = query.replace(" ", "_") + ".wiki"
 
-    # API URL for parsing wikitext
+    # API URL for parsing wikitext(https://www.mediawiki.org/wiki/API:Parsing_wikitext)
     URL = "https://en.wikipedia.org/w/api.php"
 
     PARAMS = {
