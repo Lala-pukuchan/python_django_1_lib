@@ -172,3 +172,10 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+*.pdf
+test_folder/
+local_lib/
+.DS_Store
+venv/
+django_venv/
