@@ -64,6 +64,7 @@ def roads_to_philosophy(start_query):
 def main():
     if len(sys.argv) != 2:
         print('Usage: python3 roads_to_philosophy.py "search term"')
+        print('Example Usage: python3 roads_to_philosophy.py "42 (number)"')
         sys.exit(1)
     query = sys.argv[1]
     roads_to_philosophy(query)
